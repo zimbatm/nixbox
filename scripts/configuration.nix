@@ -16,6 +16,26 @@
   # your boot until you press *. 
   boot.initrd.checkJournalingFS = false;
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> origin/nixos-14.12
+=======
+>>>>>>> origin/nixos-14.12
+=======
+>>>>>>> zimbatm/nixos-14.12
+=======
+>>>>>>> origin/nixos-14.12
+  # Vagrant cannot yet handle udev's new predictable interface names.
+  # Use the old ethX naming system for the moment.
+  # http://www.freedesktop.org/wiki/Software/systemd/PredictableNetworkInterfaceNames/
+  networking.usePredictableInterfaceNames = false;
+
+>>>>>>> zimbatm/nixos-14.12
   # Services to enable:
 
   # Enable the OpenSSH daemon.
